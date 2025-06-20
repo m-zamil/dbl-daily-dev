@@ -47,6 +47,7 @@ button {
 /* ====== Navbar ======== */
 .navbar {
   display: flex;
+  gap: 30px;
   align-items: center;
   justify-content: space-between;
   padding: 30px 35px;
@@ -65,10 +66,13 @@ button {
 }
 .nav-links ul {
   display: flex;
-  gap: 1.5em;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0 1.5em;
   list-style: none;
 }
 .nav-cta {
+  flex-shrink: 0;
   display: inline-block;
   padding: 7px 30px;
   line-height: 2;
